@@ -22,7 +22,7 @@ builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>
     {
-        policy.WithOrigins("youcanshortenit.netlify.app").AllowAnyMethod().AllowAnyHeader();
+        policy.WithOrigins("https://youcanshortenit.netlify.app").AllowAnyMethod().AllowAnyHeader();
     });
 });
 
